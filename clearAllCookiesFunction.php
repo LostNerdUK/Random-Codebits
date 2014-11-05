@@ -7,6 +7,6 @@ function clearCookies() {
 		unset($_COOKIE[$one]);
 		setcookie($one, "", time()-3600);
 	}
-	return true;
+return true;
 }
 ?>
